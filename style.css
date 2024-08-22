@@ -18,8 +18,26 @@ header {
   
   header img {
     margin: 3px;
-    max-width: 90%; /* Limita a largura das imagens */
+    margin-left: 50px;
+    max-width: 90%; 
     height: 60px;
-    width: 140px /* Mantém a proporção da imagem */
+    width: 150px 
   }
 
+  .image-group {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+}
+
+/* Estilo para cada item de imagem */
+.image-item {
+    flex: 1;
+    margin: 0 10px; 
+}
+
+.image-item img {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
