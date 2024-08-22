@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    height: 30px; /* Ajuste a altura conforme necessário */
+    background-color: #007bff; /* Azul padrão */
+    display: flex;
+    justify-content: space-between; /* Alinha as imagens */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+  }
+  
+  header img {
+    max-width: 50%; /* Limita a largura das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+  }
